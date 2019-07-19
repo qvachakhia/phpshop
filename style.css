@@ -1,0 +1,34 @@
+.fixed-top {
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.products {
+  border: 2px solid #e0e0e0;
+  margin: 0px 0px 9px 3px;
+  text-align: center;
+  display: block;
+  border-radius: 3px;
+}
+.products:hover {
+  -webkit-box-shadow: 3px 0px 76px -63px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 0px 76px -63px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 0px 76px -63px rgba(0, 0, 0, 0.75);
+}
+@media (min-width: 576px) {
+  .col-sm-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 32.333333%;
+  }
+}
+.cover {
+  background-image: url("./image/slider.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border: 5px solid #e2e2e2;
+}
